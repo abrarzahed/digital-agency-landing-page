@@ -1,0 +1,12 @@
+.banner-area {
+  width: 100%;
+  position: 100%;
+  background-image: $bg-cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  z-index: -99;
+  .banner-title {
+    height: 96vh;
+    padding-top: 16rem;
+  }
+}

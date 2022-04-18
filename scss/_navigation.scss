@@ -1,0 +1,45 @@
+#nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: $text-light;
+  flex-direction: column;
+  .toggle-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1rem;
+    color: $text-dark2;
+    i {
+      font-size: 2em;
+    }
+  }
+
+  .collapse {
+    max-height: 0px;
+    overflow-y: hidden;
+    transition: all 0.5s ease;
+    ul {
+      flex-direction: column;
+      text-align: center;
+      padding: 0 3rem;
+      li {
+        padding: 0 1.5rem;
+        line-height: 3rem;
+        font-size: 1.1em;
+      }
+    }
+    &.active {
+      max-height: 50vh;
+    }
+  }
+  .flex-initial {
+    ul {
+      button {
+        display: none;
+      }
+    }
+  }
+}
