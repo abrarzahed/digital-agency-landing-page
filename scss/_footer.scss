@@ -1,0 +1,34 @@
+#footer {
+  border-top: 2px solid $text-light;
+  margin-top: 7em;
+  .grid {
+    column-gap: 3em;
+    row-gap: 2em;
+    border-bottom: 2px solid $text-light;
+    input.subscribe-text {
+      border: none;
+      background: $text-light;
+      padding: 0.8em 1em;
+      font-size: 0.8em;
+      color: $text-dark;
+      font-family: $font-poppins;
+      &:focus {
+        border: none;
+        outline: none;
+      }
+    }
+    button.btn-go {
+      background: #ddd;
+      padding: 0 1em;
+      font-family: $font-poppins;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      &:hover {
+        background: $text-dark2;
+        color: $text-light;
+      }
+    }
+  }
+}

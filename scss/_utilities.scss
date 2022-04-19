@@ -5,11 +5,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
 ul {
   list-style-type: none;
+}
+.agency-area,
+.digital-life,
+.counting-area,
+.card-area,
+.work,
+.article,
+.banner-title,
+.cta,
+footer {
+  padding-inline: 20px !important;
 }
 .text-dark {
   color: $text-dark;
@@ -123,6 +135,12 @@ ul {
 .py-10 {
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
+}
+.pt-10 {
+  padding-top: 4.5rem !important;
+}
+.pb-5 {
+  padding-bottom: 1.5rem !important;
 }
 .px-5 {
   padding-inline: 1.5rem;

@@ -1,0 +1,22 @@
+.article {
+  .grid {
+    column-gap: 3em;
+    row-gap: 2em;
+    .card {
+      article {
+        transition: box-shadow 0.2s ease;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        background: #fff;
+        &:hover {
+          cursor: pointer;
+          box-shadow: none;
+          border-color: #eee;
+        }
+        img {
+          border-radius: 10px 10px 0 0;
+        }
+      }
+    }
+  }
+}
